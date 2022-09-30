@@ -27,6 +27,8 @@ if x != 0 and y != 0:
         print(f"- x={x}; y={y} -> 3")
     elif x == 0:
         print(f"- x={x}; y={y} -> Точка находится на оси абсцисс 'X'")
+    elif y == 0:
+        print(f"- x={x}; y={y} -> Точка находится на оси ординат 'Y'")
     else:
         print(f"- x={x}; y={y} -> 4")
 else:
